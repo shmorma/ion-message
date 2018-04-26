@@ -6,7 +6,7 @@ export const QIYU_KEY = new InjectionToken("qiyu_key");
 export class QiyuModule {
   constructor(@Inject(QIYU_KEY) key: string) {
     let script = document.createElement("script");
-    script.src = `https://qiyukf.com/script/${key}.js`;
+    script.src = `https://qiyukf.com/script/${key}.js?hidden=1`;
     document.head.appendChild(script);
   }
 

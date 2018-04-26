@@ -3,7 +3,7 @@ export var QIYU_KEY = new InjectionToken("qiyu_key");
 var QiyuModule = /** @class */ (function () {
     function QiyuModule(key) {
         var script = document.createElement("script");
-        script.src = "https://qiyukf.com/script/" + key + ".js";
+        script.src = "https://qiyukf.com/script/" + key + ".js?hidden=1";
         document.head.appendChild(script);
     }
     QiyuModule.forRoot = function (key) {
