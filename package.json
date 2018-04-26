@@ -12,6 +12,10 @@
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve"
   },
+  "files": [
+    "dist/",
+    "src/"
+  ],
   "dependencies": {
     "@angular/animations": "5.2.10",
     "@angular/common": "5.2.10",
